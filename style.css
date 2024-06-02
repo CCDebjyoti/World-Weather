@@ -24,7 +24,7 @@ body {
 }
 
 .search-box {
-    width: 100%;
+    width: 90%;
     height: min-content;
     display: flex;
     justify-content: space-between;
@@ -39,6 +39,13 @@ body {
     background-color: #e6f5fb;
     padding: 12px 16px;
     border-radius: 14px;
+}
+
+#searchBtn {
+    width: 0px;
+    margin-left: 0px;
+    margin-right: 30px;
+
 }
 
 .search-box input::placeholder {
@@ -109,10 +116,12 @@ body {
 
 .humidity {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .wind {
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 .weather-details i {
